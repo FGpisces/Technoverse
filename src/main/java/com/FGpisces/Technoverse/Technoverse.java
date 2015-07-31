@@ -7,7 +7,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="Technoverse", name="Technoverse", version="0.01")
+@Mod(modid="Technoverse", name="Technoverse", version="0.0.1")
 public class Technoverse
 {	
     @Mod.Instance("Technoverse")
@@ -18,13 +18,13 @@ public class Technoverse
     	BlockReg.init();
     }
 	
-	@Mod.EventHandler
-	public void Init(FMLInitializationEvent event){
+    @Mod.EventHandler
+    public void Init(FMLInitializationEvent event){
 	
-	}
+    }
 	
-	@Mod.EventHandler
-	public void postInit(FMLPostInitializationEvent event){
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event){
 		
     }
 }
