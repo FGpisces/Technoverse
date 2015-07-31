@@ -1,5 +1,0 @@
-#MasterLanguageFile for mod 'Technoverse' (0.01) by FGpisces
-
-itemGroup.Technoverse=Technoverse
-
-block.Technoverse:ironstone.name=Ironstone
